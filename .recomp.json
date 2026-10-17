@@ -1,0 +1,14 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Alien vs. Predator",
+  "system": "Arcade",
+  "type": "recomp",
+  "original": {"region": "Europe", "revision": "940520"},
+  "project": "Alien vs. Predator Recomp",
+  "status": "playable",
+  "targets": ["Windows", "Linux", "Steam Deck"],
+  "toolchain": "cps2recomp",
+  "approach": "Static recompilation of the CPS-2 board's 68000 and Z80 programs to C++, on its own CPS-2 machine with no emulator",
+  "maintainers": [{"name": "omegakatana92", "link": "https://github.com/omegakatana92"}],
+  "tags": ["CPS-2", "run-and-gun"]
+}
